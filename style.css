@@ -1,0 +1,109 @@
+body{
+    display: block;
+    background-color:rgb(252, 252, 252);
+    margin: 0px;
+}
+
+#introtxt{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 170px;
+    margin-right: 100px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+#biopic{
+    width: 250px;
+    border: 1px solid rgb(128, 227, 252);
+    border-radius: 0px;
+    margin-left: 660px; 
+    margin-right: 200px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.top-banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/bluebackgroundsmooth.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foreground{
+    border-radius: 0px;
+    border: 0px;
+    width: 850px;
+    margin-left: 380px;
+    margin-top: 35px;
+
+}
+
+img{
+    margin-left: 145px;
+    margin-right: 5px;
+    margin-top: 100px;
+    margin-bottom: 180px;
+    border: 5px solid rgb(0, 4, 9);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+}
+
+
+@font-face{
+    font-family: 'Jost';
+    src: url(font/Jost-VariableFont_wght.ttf);
+}
+
+#jost{
+    font-family: 'Jost';
+}
+
+
+#splashimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    width: 550px;
+    border: 0px;
+    padding: 0px;
+}
+
+
+.phototext{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap; 
+   justify-content: center;
+   margin-left: 30px;
+    margin-right: 65px;
+   margin-top: 30px;
+   margin-bottom: 5px;
+}
+   
+.font{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 400px;
+}
+
+#astrict{
+    width: 400px;
+    border: 0px;
+    border-radius: 0px;
+    margin-left: 580px; 
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#back-to-top{
+    margin-left: 720px;
+    margin-top: 0px;
+    color: rgb(128, 227, 252);
+}
